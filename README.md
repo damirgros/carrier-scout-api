@@ -1,4 +1,4 @@
-# Job Posting API Site
+# Carrier Scout API
 
 This is a job posting aggregator built with **Next.js** and **TypeScript**, designed to help job seekers find job opportunities based on search queries and location. The app fetches job listings using a custom Google Search API and displays the results in an easy-to-read format.
 
