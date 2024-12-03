@@ -20,7 +20,7 @@ const Home: React.FC = () => {
           params: {
             key: apiKey,
             cx: searchEngineId,
-            q: `${searchData.query}+posao`,
+            q: `intitle:"${searchData.query}"`,
             dateRestrict: "m1",
             gl: "hr",
           },
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
       }
     }
 
-    fetchJobPostings(); // Invoke the function
+    fetchJobPostings();
   };
 
   return (
